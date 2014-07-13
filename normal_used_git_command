@@ -1,0 +1,9 @@
+# 安装好git后到一些初始化设置(下面用到global表示所有到git仓库都会默认使用这个设置)
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+1. git init # git初始化
+2. git add file_name # 添加一个文件(可以添加多个)
+3. git commit -m "message" # message必须要写（当然也可以通过设置参数来不写）
+4. git status # 查看当前文件夹到状态
+5. git diff # 比较文件到修改
