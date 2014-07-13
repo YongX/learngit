@@ -15,3 +15,4 @@ git config --global user.email "email@example.com"
 git reset --hard commit_id
 # 如果关闭了窗口，可以用git reflog来显示历史到commit id信息
 8. git reflog # 查看历史命令
+9. git checkout -- file # 让file文件回到最近一次git commit或git add到状态。如果这个命令中到 -- 省去，就变成了“创建一个新分支”的命令.
